@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Welcome to relative url templates
+    </h1>
+
+    <a href="{% url 'wkFourApp:other' %}">
+        Link to other
+    </a>
+
+    <div>
+    <a href="{% url 'admin:index' %}">
+        Link to Admin Page
+    </a>
+
+    <a href="{% url 'index' %}">
+        Link to index
+    </a>
+    </div>
+</body>
+</html>

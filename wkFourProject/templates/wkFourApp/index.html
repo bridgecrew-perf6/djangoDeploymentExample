@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends "wkFourApp/base.html" %}
+{% load my_extras %}
+
+{% block body_block %}
+    <h1>
+        Welcome to index!!!
+    </h1>
+    <h1>{{ text|cut:'hello' }}</h1>
+    <h1>The bird is the word times {{ number|add:"23" }}</h1>
+    <h2>
+        This is the index.html page
+    </h2>
+{% endblock %}
