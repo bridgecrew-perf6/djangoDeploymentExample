@@ -18,8 +18,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 # APP_DIR = os.path.join(BASE_DIR, "wkFourApp")
 
-TEMPLATE_DIR = BASE_DIR / "templates"
-APP_DIR = BASE_DIR / "wkFourApp"
+TEMPLATE_DIR = str(BASE_DIR / "templates")
+APP_DIR = str(BASE_DIR / "wkFourApp")
 
 
 # Quick-start development settings - unsuitable for production
